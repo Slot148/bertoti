@@ -1,7 +1,5 @@
 # Engenharia de Software
 
-## 14 de Agosto de 2025
-
 ### 1. Programação vs. Engenharia de Software
 Apesar de muita gente usar 'programação' e 'engenharia de software' como se fossem a mesma coisa, existe uma diferença importante:
 *   **Programar** é basicamente escrever código.
