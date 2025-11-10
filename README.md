@@ -26,3 +26,5 @@ A proposta é que a experiência do Google ajude a pensar em caminhos para torna
 | **Custo x Escalabilidade** | Investir em uma arquitetura robusta e escalável desde o início custa mais caro e pode ser desnecessário no começo. Por outro lado, começar simples é mais barato, mas pode gerar gastos maiores no futuro quando for preciso escalar. |
 
 ---
+### 4. Diagrama de Classes UML
+
