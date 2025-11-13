@@ -31,8 +31,9 @@ A proposta é que a experiência do Google ajude a pensar em caminhos para torna
 ![](assets/biblioteca.drawio.png)
 
 #### Classes1
+
+ - Biblioteca.java
 ```Java
-//Biblioteca.java
 package biblioteca;
 
 import java.util.ArrayList;
@@ -93,7 +94,9 @@ public class Biblioteca {
     public List<Livro> getLivros() { return livros; }
 }
 
-//Livro.java
+```
+ - Livro.java
+```java
 package biblioteca;
 
 public class Livro {
@@ -138,8 +141,8 @@ public class Livro {
 }
 ```
 #### Testes1
+ - BibliotecaTests.java
 ```Java
-//BibliotecaTests.java
 package biblioteca;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -223,8 +226,9 @@ public class BibliotecaTest {
         assertEquals("Rua Principal, 123", biblioteca.getEndereco());
     }
 }
-
-//LivroTests.java
+```
+ - LivroTests.java
+```java
 package biblioteca;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -304,8 +308,8 @@ public class LivroTest {
 ![](assets/Universidade.drawio.png)
 
 #### Classes2
+ - Universidade.java
 ```Java
-//Universidade.java
 package universidade;
 
 import java.util.ArrayList;
@@ -378,8 +382,9 @@ public class Universidade {
     public String getCidade() { return cidade; }
     public List<Curso> getCursos() { return cursos; }
 }
-
-//Curso.java
+```
+ - Curso.java
+```java
 package universidade;
 
 public class Curso {
@@ -421,8 +426,8 @@ public class Curso {
 ```
 
 #### Testes2
+ - UniversidadeTests.java
 ```Java
-//UniversidadeTests.java
 package universidade;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -508,8 +513,9 @@ public class UniversidadeTest {
 }
 
 
-
-//CursoTests.java
+```
+ - CursoTests.java
+```java
 package universidade;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -556,7 +562,7 @@ public class CursoTest {
     }
 }
 ```
-### Main File
+#### Main File
 ```Java
 package main;
 
